@@ -1,0 +1,24 @@
+body {background-color: pink}
+p, div {margin: 0; padding: 0}
+#header {font-family: fantasy; font-size: 20px; text-align: center}
+div, select {text-align: center}
+#bigBox {margin-left: 10%; margin-right: 10%; margin-top: 2%; margin-bottom: 2%;
+            width: 80%; height: 200px;
+            border: groove; border-color: gold;
+            background-color: white;
+            overflow: scroll;}
+#bigBox2 {margin-left: 10%; margin-right: 10%; margin-bottom: 2%;
+            width: 80%; height: 100px;
+            border: groove; border-color: gold;
+            background-color: white; display: block;
+            overflow: scroll;}
+li {border: groove; visibility: hidden;}
+#listie, #listie2 {margin: 0; padding: 0; list-style-type: none;}
+#link {text-align: center;}
+.doneButton {float: right;}
+.doneButton::before{content: "Done";}
+.deleteButton {float: right;}
+.deleteButton::before {content: "Delete";}
+.redoButton {float: left;}
+.redoButton::before {content: "Redo";}
+#done {visibility: hidden;}
